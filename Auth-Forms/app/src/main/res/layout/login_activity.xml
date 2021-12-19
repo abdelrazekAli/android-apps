@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<!--    color:#01A7D9    -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:src="@drawable/person"
+        android:layout_marginBottom="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:inputType="textEmailAddress"
+        android:layout_margin="20dp"
+        android:hint="Email"
+        android:drawableStart="@drawable/email"
+        android:drawablePadding="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        android:layout_margin="20dp"
+        android:hint="Password"
+        android:drawableStart="@drawable/password"
+        android:drawablePadding="10dp"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Remember me"
+        />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#01A7D9"
+            android:text="login"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            />
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="login with google"
+            android:textAllCaps="true"
+            android:layout_margin="15dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#01A7D9"
+            android:text="login with facebook"
+            android:layout_margin="15dp"
+
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="do not have an account? signup"
+        android:textAllCaps="true"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:layout_margin="20dp"
+        />
+
+
+</LinearLayout>

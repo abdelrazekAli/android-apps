@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">test5</string>
+    <string-array name="languages">
+        <item>EG</item>
+        <item>USA</item>
+        <item>KSA</item>
+        <item>UAE</item>
+    </string-array>
+</resources>
